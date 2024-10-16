@@ -126,13 +126,13 @@ int main()
 
     MYSQL_ROW row;
 
-    char *server = "localhost";
+    char *server = "your_name";
 
-    char *user = "john";
+    char *user = "your_username";
 
-    char *password = "password";
+    char *password = "your_password";
 
-    char *database = "finalprojectdb";
+    char *database = "your_database";
 
 
 
@@ -241,7 +241,7 @@ int main()
             char query[100];
 
 
-            sprintf(query, "INSERT INTO data VALUES (0,NOW(),%f, %f)", humid2, temp2);
+            sprintf(query, "INSERT INTO your_table_name VALUES (0,NOW(),%f, %f)", humid2, temp2);
 
 
             if (mysql_query(conn, query))

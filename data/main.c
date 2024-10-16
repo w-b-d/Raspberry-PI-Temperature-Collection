@@ -21,13 +21,13 @@ int main()
 
     MYSQL_ROW row;
 
-    char *server = "localhost";
+    char *server = "your_name";
 
-    char *user = "john";
+    char *user = "your_username";
 
-    char *password = "password";
+    char *password = "your_password";
 
-    char *database = "finalprojectdb";
+    char *database = "your_database";
 
     conn = mysql_init(NULL);
 
